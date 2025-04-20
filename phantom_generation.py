@@ -7,8 +7,7 @@ from mirtorch.linear import NuSense
 import torchkbnufft as tkbn
 import scipy.io as sio
 
-# project_dir = os.getcwd()
-project_dir = "/RadOnc-MRI1/Student_Folder/jiarenz/projects/SP4MRF"
+project_dir = os.getcwd()
 
 
 def check_values(arr):
