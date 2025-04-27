@@ -28,6 +28,7 @@ SOTIP-master/
     network_experiments.sh   # Bash script to organize training experiments
     phantom_generation.py    # Script to load phantoms and in vivo data
     train_CNN.py             # Main training script
+    env.yaml                 # Environment file. Additional requirement: MIRTorch (https://github.com/guanhuaw/MIRTorch)
     unet/
         model.py             # U-Net for temporal subspace coefficient (TSC) image reconstruction
         unet_parts.py        # U-Net building blocks
